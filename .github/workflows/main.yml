@@ -11,9 +11,11 @@ jobs:
         run: |
           $projFile = Get-ChildItem -Recurse -Filter *.vcxproj | Select-Object -First 1
           if ($projFile) {
-              msbuild $projFile.FullName /p:Configuration=Release /p:Platform=x64
+              # Prepneme sa do priecinka, kde subor realne lezi
+              Set-Location $projFile.Directory.FullName
+              msbuild $projFile.Name /p:Configuration=Release /p:Platform=x64
           } else {
-              Write-Error "Ziadny .vcxproj subor sa nenasiel v repozitari!"
+              Write-Error "Ziadny .vcxproj subor sa v projekte nenasiel!"
           }
       - name: Upload EXE
         uses: actions/upload-artifact@v4
@@ -22,3 +24,4 @@ jobs:
           path: |
             **/x64/Release/*.exe
             **/Release/*.exe
+
