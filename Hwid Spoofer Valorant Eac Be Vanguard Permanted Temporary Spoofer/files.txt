@@ -1,0 +1,7 @@
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\spoofer.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\main\main.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\main\menu.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\main\serial.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\mapper\interface.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\mapper\pe.cpp"
+"D:\Programs\MyStuff\Hwid Spoofer Valorant Eac Be Vanguard Permanted Temporary Spoofer\mapper\services.cpp"
